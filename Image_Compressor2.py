@@ -2,7 +2,8 @@ import streamlit as st
 from PIL import Image 
 
 
-st.write(""" # Image Compressor - Made by - Shivam Bhosale""")
+st.write(""" # Image Compressor """)
+st.write(""" ## Made by: Shivam Bhosale """)
 uploaded_file = st.file_uploader("Upload your Image to be compressed here", type=".jpg")
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
